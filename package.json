@@ -1,0 +1,27 @@
+{
+  "name": "crudq2",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kyle-Gray/warmupCRUD.git"
+  },
+  "keywords": [],
+  "author": "Kyle Gray <th33nd3r@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kyle-Gray/warmupCRUD#readme"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "humps": "^2.0.0",
+    "knex": "^0.12.6",
+    "morgan": "^1.7.0",
+    "pg": "^6.1.2"
+  }
+}
